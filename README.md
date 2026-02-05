@@ -45,7 +45,5 @@ This is your main daily interaction.
 - `goals/`: Your active goals (Milestones defined here).
 - `tasks/`: Short-term active projects.
 - `diary/`: Your daily logs.
-- `plans/`:
-    - `next_day.md`: The active plan for tomorrow.
-    - `YYYY-MM-DD.md`: Archived plans.
+- `next_day_plan.md`: The active plan for tomorrow.
 - `user_profile.md`: The system's memory.

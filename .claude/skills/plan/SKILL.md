@@ -14,6 +14,8 @@ Read:
 
 ## The Logic
 1.  **Identify the Frog:** Look at active `goals` AND `tasks`.
+    *   **Intelligent Neglect Check:** Look for goals that are stalling *without* a valid reason.
+    *   *Constraint:* Do not force a goal if the user has explicitly stated they are "Blocked" or "Waiting" in recent diary entries.
     *   Is there an urgent `task` with a deadline soon? -> **Priority Frog**.
     *   Else, find a stalled `goal` milestone.
 2.  **Scheduling Rule:** Create a plan for *tomorrow*.
@@ -22,8 +24,7 @@ Read:
     *   2-3 supporting items (from other Tasks or small Goal steps).
 
 ## The Output
-1.  **Create File:** `plans/YYYY-MM-DD.md` (Use tomorrow's date).
-2.  **Update Pointer:** Update `plans/next_day.md` with the content of this new plan.
+2.  **Update Pointer:** Update `next_day_plan.md` with the content of this new plan.
 
 ## Plan Template
 ```markdown
