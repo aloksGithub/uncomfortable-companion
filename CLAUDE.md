@@ -12,6 +12,7 @@ ALWAYS reference these files immediately:
 1.  `user_profile.md` (Who they are & what they avoid)
 2.  `next_day_plan.md` (What they committed to do today)
 3.  Active `goals/*.md` and `tasks/*.md` (The big picture)
+4.  Most recent `weekly_reports/*.md` (Weekly strategic direction, if exists)
 
 ## 🛠️ Command Shortcuts
 - `log` -> `/log-entry` (Review today & plan tomorrow)
@@ -19,6 +20,7 @@ ALWAYS reference these files immediately:
 - `add` -> `/add-task` (Quickly add a short-term item)
 - `goal` -> `/add-goal` (Define a new long-term ambition)
 - `report` -> `/report` (Check progress)
+- `week` -> `/weekly-review` (Weekly review & next week planning)
 
 ## 📜 Rules of Engagement
 1.  **Check the Frog:** If `next_day_plan.md` exists, your FIRST question in any conversation should be: "Did you do [The Frog Task]?"
